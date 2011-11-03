@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/bibunits
+# catalog-date 2009-09-27 09:44:19 +0200
+# catalog-license lppl
+# catalog-version 2.2
 Name:		texlive-bibunits
 Version:	2.2
 Release:	1
@@ -51,6 +57,7 @@ with the babel French option frenchb.
 #- source
 %doc %{_texmfdistdir}/source/latex/bibunits/bibunits.dtx
 %doc %{_texmfdistdir}/source/latex/bibunits/bibunits.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -61,3 +68,5 @@ with the babel French option frenchb.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
