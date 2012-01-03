@@ -6,7 +6,7 @@
 # catalog-version 2.2
 Name:		texlive-bibunits
 Version:	2.2
-Release:	1
+Release:	2
 Summary:	Multiple bibliographies in one document
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/bibunits
