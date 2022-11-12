@@ -5,9 +5,9 @@ Summary:	Multiple bibliographies in one document
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/bibunits
 License:	LPPL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/bibunits.r15878.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/bibunits.doc.r15878.tar.xz
-Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/bibunits.source.r15878.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/bibunits.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/bibunits.doc.r%{version}.tar.xz
+Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/bibunits.source.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
